@@ -1,0 +1,17 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: 123.com
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  <<: *default
+  database: bootstrap_demo
+test:
+  <<: *default
+  database: bootstrap_demo_test
+production:
+  <<: *default
+  database: bootstrap_demo
