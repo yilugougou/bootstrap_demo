@@ -42,3 +42,7 @@ gem "twitter-bootstrap-rails", '3.2.0'
 
 gem 'devise-bootstrap-views'
 
+gem 'capistrano', '2.12.0'
+gem 'capistrano-rbenv', '1.0.1'
+
+gem 'thin', '1.6.2'
